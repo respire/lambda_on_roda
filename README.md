@@ -1,4 +1,4 @@
-# hello_world
+# lambda_on_roda
 
 This project is based on the hello world example from sam-cli.
 
@@ -21,5 +21,5 @@ curl http://localhost:3000/hello
 ## Unit tests
 
 ```bash
-hello_world$ bundle exec ruby tests/unit/test_handler.rb
+bundle exec ruby tests/unit/test_handler.rb
 ```
