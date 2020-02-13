@@ -1,8 +1,15 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "httparty"
+source 'https://rubygems.org'
+
+gem 'httparty'
+gem 'roda'
 
 group :test do
-  gem "test-unit"
-  gem "mocha"
+  gem 'mocha'
+  gem 'test-unit'
+end
+
+group :development do
+  gem 'rubocop'
 end
