@@ -15,7 +15,7 @@ GEM
     parser (2.7.0.2)
       ast (~> 2.4.0)
     power_assert (1.1.5)
-    rack (2.2.3)
+    rack (3.0.4.2)
     rainbow (3.0.0)
     roda (3.28.0)
       rack
